@@ -49,7 +49,10 @@ if (isset($_GET['idNumbertoDelete'])) {
                     <td> <?php echo $rows['id'] ?> </td>
                     <td> <?php echo $rows['username'] ?> </td>
                     <td> <?php echo $rows['password'] ?> </td>
-                    <td> <a href="display_delete.php?idNumbertoDelete=<?php echo $rows['id'] ?>">DELETE</a> </td>
+                    <td> <a href="display_delete.php?idNumbertoDelete=<?php echo $rows['id'] ?>">
+                        <button>Delete</button>
+                        </a>
+                    </td>
                 </tr>
 
             <?php } ?>
@@ -57,7 +60,7 @@ if (isset($_GET['idNumbertoDelete'])) {
         </table>
         <br><br>
         <a href="index.php">
-            <button type="button" >
+            <button type="button">
                 Back to HomePage
             </button>
         </a>

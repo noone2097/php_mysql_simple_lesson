@@ -30,7 +30,7 @@ if (isset($_POST['saveInfo'])) {
 <body>
 
     <center>
-        <form action="" method="post">
+        <form action="insert_data.php" method="post">
 
             <input type="text" name="usernametf" placeholder="Username"> <br> <br>
             <input type="text" name="passwordtf" placeholder="Password"> <br> <br>
